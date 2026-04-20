@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: webhook-sql-solver
+
+challenge:
+  generate-webhook-url: https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA
+  name: John Doe
+  reg-no: REG12347
+  email: john@example.com
+
+  # Replace these with your solved final SQL queries for each question set.
+  question1-sql: SELECT 'REPLACE_WITH_QUESTION_1_FINAL_QUERY' AS final_answer;
+  question2-sql: SELECT 'REPLACE_WITH_QUESTION_2_FINAL_QUERY' AS final_answer;
