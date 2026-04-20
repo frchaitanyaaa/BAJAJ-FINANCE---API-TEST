@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: bfhl-java-solution
+
+app:
+  candidate:
+    name: Chaitanya Bhagwant Pagare
+    regNo: ADT23SOCB0311
+    email: frchaitanyaaa@gmail.com
+  api:
+    generate-webhook-url: https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA
+
+logging:
+  level:
+    root: INFO
+    com.healthrx.bfhl: INFO
